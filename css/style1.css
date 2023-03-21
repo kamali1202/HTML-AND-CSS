@@ -1,0 +1,165 @@
+h1
+{
+    color:brown;
+}
+.head2
+{
+    color:palevioletred;
+}
+*
+{
+    color:red;
+    background-color:azure;
+}
+div>h2{
+    color:black;
+}
+div h3 {
+    color:orange;
+}
+
+h3+h4
+{
+    color:fuchsia !important;
+}
+h3~h4{
+    color:grey;
+}
+.about
+{
+    color:rgb(100,150,200);
+    background-color:aquamarine;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size:20px;
+    font-weight:bold;
+    font-style:italic;
+    font-stretch:extra-expanded;
+    text-transform:capitalize;
+    text-decoration:underline;
+    text-align:right;
+    letter-spacing:2px;
+    word-spacing:2px;
+}
+.para
+{
+    color:red;
+    background-color:white;
+    line-height:30px;
+    text-align:justify;
+    text-indent:50px;
+    text-shadow:2px 2px 2px yellow;
+}
+.para:first-letter{
+    font-size:50px;
+}
+.para:first-line{
+    font-size:20px;
+}
+a{
+    text-transform:capitalize;
+    color:blue;
+}
+a:visited{
+    color:brown;
+}
+a:link{
+    color:blue;
+}
+a:hover{
+    color:yellow;
+}
+a:active{
+    color:deeppink;
+}
+p[class]
+{
+    color:rgb(75, 32, 97);
+}
+p[id]
+{
+    color:green;
+}
+p[id="p1"]
+{
+    color:black;
+}
+p[class*='a']
+{
+    color:black;
+}
+ul{
+  
+    list-style-type:square;
+    list-style-position:inside;
+}  
+ol{
+    list-style-image:url("/image/imagelist.jpg");
+    list-style-type:decimal-leading-zero;
+}
+table
+{
+    width:300px;
+    margin:auto;
+}
+th{
+    text-align:left;
+    text-transform:uppercase;
+    border-bottom:2px solid blue;
+}
+table{
+    border-spacing:10px 10px;
+    /*border-collapse:collapse;*/
+}
+tr:nth-child(even)
+{
+    background-color:aqua;
+}
+th,td{
+    border:2px solid blue;
+    padding:10px;
+}
+.amt
+{
+    text-align:right;
+}
+
+table{
+    border-spacing:10px 10px;
+    /*border-collapse:collapse;*/
+}
+
+p[id="boxes"]
+{
+    border:2px solid black;
+    width:400px;
+    height:400px;
+    padding:15px;
+    text-align:justify;
+    max-width:1500px;
+    min-width:300px;
+    max-height:1500px;
+    min-width:100px;
+    margin:auto;
+    
+}
+#boxes{
+    border-radius:20px;
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+    box-shadow:10px 10px 10px green;
+}
+li{
+    display:inline;
+}
+li[class="l2"]
+{
+    visibility:hidden;
+}
+.class1
+{
+    background-color:white;
+    border:30px solid black;
+    text-align:justify;
+    padding:10px;
+    border-image:url("/image/border1.jpg") 30 round;
+}

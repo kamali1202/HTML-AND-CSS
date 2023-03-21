@@ -1,0 +1,83 @@
+.signup
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     
+}
+.forgetpasswd
+{
+    color:lightskyblue;
+    padding:10px;
+}
+#blacklinkedin
+{
+    width:50px;
+    height:15px;
+}
+
+button
+{
+border-radius:300px;
+}
+
+a{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgba(17, 120, 185, 0.84);
+    font-weight:bold;
+    font-size:medium;
+    text-decoration:none;
+}
+.signinform
+{
+    width:350px;
+    background-color:white;
+    margin:auto;
+    border-radius:20px;
+    box-shadow:5px 5px whitesmoke;
+    padding:10px 20px 30px;
+}
+input
+{
+    width:100%;
+    margin:5px;
+    padding:10px;
+    box-sizing:border-box;
+}
+.join p
+{
+ text-align:center;
+ padding: bottom 500px;
+}
+ul
+{
+    display:-webkit-inline-box;
+    list-style-type:none;
+    -webkit-padding-start:5px;
+    
+}
+input:focus
+{
+    background-color:whitesmoke;
+}
+button 
+{
+    width:100%;
+    margin:center;
+   font-size:15px; 
+   padding:10px;
+   color:white;
+   background-color:rgb(40, 40, 231);
+   text-align:center;
+   border:1px solid blue;
+}
+button[id="btn2"]
+{
+    border-color:black;
+    background-color:white;
+    color:black;
+
+}
+div[class="line"]
+{
+    padding-top:20px;
+    display:-webkit-inline-box;
+}
